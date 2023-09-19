@@ -1,5 +1,5 @@
-import { range }  from 'rxjs';
+import { range } from 'rxjs';
 
-const range$ = range(1,9);
+const range$ = range(1, 9);
 
-range$.subscribe(console.log)
+range$.subscribe(console.log);
